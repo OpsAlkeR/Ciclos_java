@@ -1,0 +1,54 @@
+EJERCICIOS DE LOGICA PARA PRACTICAR
+	
+EJ #1: COVERSOR DE TEMPERATURA:
+Problema: Tienes la temperatura de tu ciudad en grados Celsius y necesitas saber a cuánto equivale en grados Fahrenheit para contárselo a un amigo que vive en el extranjero.
+(Pista: La fórmula es F = (C * 1.8) + 32 o F = (C * 9/5) + 32).
+
+Inicio:
+Definir temperatura, Grados_Celsius, Grados_Fahrenheit como real
+	
+Imprimir "ingrese en valor de Celsius"
+Leer "Grados_Celsius"
+
+Fahrenheit = (Grados_Celsius * 1.8) + 32
+
+Temperatura = "La Temperatura es", Fahrenheit
+Fin
+
+EJ #2: EL CAMBIO EN LA TIENDA:
+Problema: Vas a la tienda a comprar un producto. Conoces el precio del producto y sabes con qué billete vas a pagar. Necesitas un programa que calcule cuánto dinero te deben devolver de cambio (o devuelta).
+(Piensa qué pasa si el billete es de menor valor que el producto, ¿es necesario un condicional o asumimos que siempre alcanza el dinero? Para este nivel básico, asume que el billete siempre es mayor).
+
+INICIO:
+Definir Precio_Producto, Valor_Billete, Devuelta como real
+
+Imprimir "Ingrese el Precio_Producto"
+Leer "Precio_Producto"
+
+Imprimir "Ingrese el Valor_Billete"
+Leer "Valor_Billete"
+
+Devuelta = Valor_Billete - Precio_Producto
+
+Imprimir = "Su devuleta es", Devuelta
+FIN
+
+EJ #3: PROMEDIO DEL SEMESTRE:
+Problema: Un estudiante cursó tres materias en el semestre y quiere saber cuál es su nota final promedio. Necesitas solicitar las tres notas, sumarlas y dividirlas entre la cantidad de materias.
+revisa mi tercer ejercicio
+INICIO:
+Definir Nota1, Nota2, Nota3, Nota_Parcial, Promedio como Real
+
+Imprimir "Ingrese el valor de Nota1"
+Leer Nota1
+Imprimir "Ingrese el valor de Nota2"
+Leer Nota2
+Imprimir "Ingrese el valor de Nota3"
+Leer Nota3
+
+Nota_Parcial = (Nota1 + Nota2 + Nota3)
+
+Promedio = Nota_Parcial / 3
+
+Imprimir "Su promedio es de", Promedio
+FIN
